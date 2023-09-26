@@ -26,6 +26,9 @@ dependencies {
     // Mockito para nuestros test con JUnit 5
     testImplementation("org.mockito:mockito-junit-jupiter:5.5.0")
     testImplementation("org.mockito:mockito-core:5.5.0")
+
+    implementation ("org.apache.commons:commons-csv:1.8") // Asegúrate de usar la última versión disponible
+
 }
 
 tasks.test {
